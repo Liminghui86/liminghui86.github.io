@@ -5,3 +5,8 @@ body {
 #page-content-wrapper a {
   border-bottom: 1px solid #c5c5c5;
 }
+
+.new_badge {
+  display: inline;
+  background-color: red;
+}
