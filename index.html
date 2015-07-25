@@ -3,98 +3,97 @@
 
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Samuel Math and Physics tuition, Singapore">
+  <meta name="author" content="Li Minghui Samuel, liminghui86@gmail.com">
 
-    <title>Simple Sidebar - Start Bootstrap Template</title>
+  <title>Samuel Math - Singapore</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/simple-sidebar.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+  <link href="css/layout.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
 
 </head>
 
 <body>
+<div id="wrapper">
 
-    <div id="wrapper">
+  <!-- Sidebar -->
+  <div id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li class="sidebar-brand">
+        <a href="index.html">
+          Home
+        </a>
+      </li>
+      <li>
+        <a href="http://liminghui86.blogspot.sg" target="_blank">Study Guide</a>
+      </li>
+    </ul>
+  </div>
+  <!-- /#sidebar-wrapper -->
 
-        <!-- Sidebar -->
-        <div id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="#">
-                        Start Bootstrap
-                    </a>
-                </li>
-                <li>
-                    <a href="#">Dashboard</a>
-                </li>
-                <li>
-                    <a href="#">Shortcuts</a>
-                </li>
-                <li>
-                    <a href="#">Overview</a>
-                </li>
-                <li>
-                    <a href="#">Events</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#">Services</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
+  <!-- Page Content -->
+  <div id="page-content-wrapper">
+    <div class="container-fluid">
+      <section class="row">
+        <div class="col-lg-12">
+          <a href="#menu-toggle" class="btn btn-default menu-toggle">Toggle Menu</a>
+        </div>
+      </section>
+      <section class="row">
+        <div class="col-lg-12 text-center">
+          <h1>Samuel Math And Physics Tuition</h1>
+        </div>
+      </section>
+      <br />
+      <section class="row">
+        <div class="col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 text-center">
+          <img src="images/construction.png" width="100%">
+        </div>
+      </section>
+      <br />
+      <section>
+        <div class="row">
+          <div class="col-lg-12">
+            Welcome to the official website for Li Minghui Samuel's tuition page. As this website is still under construction, you may want to visit other sites belonging to Samuel to learn more about him:
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul>
+              <li>
+                A blog on <a href="http://liminghui86.blogspot.sg">study guide</a> written by Samuel. He used these methods and aced his subjects in O Levels, A Levels and NUS.
+              </li>
+              <li>
+                Free Math solutions <a href="http://liminghui86.blogspot.sg">study guide</a> written by Samuel.
+              </li>
             </ul>
+          </div>
         </div>
-        <!-- /#sidebar-wrapper -->
-
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h1>Simple Sidebar</h1>
-                        <p>This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.</p>
-                        <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
-                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /#page-content-wrapper -->
-
+      </section>
     </div>
-    <!-- /#wrapper -->
+  </div>
+  <!-- /#page-content-wrapper -->
+</div>
+<!-- /#wrapper -->
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Menu Toggle Script -->
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
+<!-- Menu Toggle Script -->
+<script>
+  $(".menu-toggle").click(function(e) {
+    e.preventDefault();
+    $("#wrapper").toggleClass("toggled");
+  });
+</script>
 
 </body>
-
 </html>
